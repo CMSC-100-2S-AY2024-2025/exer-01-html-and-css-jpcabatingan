@@ -1,0 +1,60 @@
+/* GENERAL */
+body {
+    background-color: #f1ead6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+li {
+    list-style-type: none;
+}
+/* NAVBAR */
+/* FEATURED */
+.featured {
+    background-image: url('images/featured_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 768px;
+}
+/* PREVIOUS PROJECTS */
+/* ABOUT ME */
+/* SKILLS */
+/* AUTOBIOGRAPHY */
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 50px;
+    margin-bottom: 30px;
+    align-items: stretch;
+}
+
+/* logo */
+.col1 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+
+
+/* contact details */
