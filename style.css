@@ -66,7 +66,7 @@ li {
 }
 .navbar_items {
     text-decoration: none;
-    max-width: 5%;
+    min-width: 5%;
 
     font-size: larger;
     font-family: ecg;
@@ -104,6 +104,7 @@ li {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 
     padding-top: 20vh;
     max-height: max-content;
@@ -111,6 +112,7 @@ li {
 }
 #featured_title {
     color:  #e5657b;
+    
     font-family: ecg;
     font-size: 20vh;
     font-weight: bold;
@@ -133,6 +135,7 @@ li {
 /* PREVIOUS PROJECTS */
 #project {
     flex-direction: column;
+    justify-content: center;
     margin: 10vh;
 }
 #project_title {
@@ -189,7 +192,7 @@ li {
 
 /* ABOUT ME -------------------- */
 #aboutme {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -204,7 +207,7 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    max-width: 50vh;
     text-align: center;
 }
 #skills_header {
@@ -253,7 +256,7 @@ li {
     /* border: 1px solid black; */
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    max-width: 50vh;
 }
 
 .autobiography_row1{
@@ -288,6 +291,7 @@ li {
     /* border: 1px solid black; */
     
     height: max-content;
+    /* width: 100%; */
     padding: 10px;
     margin-top: 5vh;
     background-color: #e5657b;
