@@ -207,7 +207,7 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 50vh;
+    max-width: 100vh;
     text-align: center;
 }
 #skills_header {
@@ -256,7 +256,7 @@ li {
     /* border: 1px solid black; */
     align-items: center;
     flex-direction: column;
-    max-width: 50vh;
+    max-width: 100vh;
 }
 
 .autobiography_row1{
