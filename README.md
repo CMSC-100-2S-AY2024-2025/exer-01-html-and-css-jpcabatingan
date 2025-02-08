@@ -10,6 +10,7 @@ Steps on how to create GitHub page:
 (Assuming I already accepted the given assignment from GitHub classroom)
 Step 1: Clone the remote GitHub repository to my local machine (laptop)
 Step 2: Set repository to public then select branch for hosting the static website.
+Step 3: Get the link of live page.
 
 What are your key takeaways from this exercise?
 Creating websites requires developers to have a clear and well-planned layout of how they want their website
