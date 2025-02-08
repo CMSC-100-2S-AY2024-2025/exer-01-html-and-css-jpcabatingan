@@ -5,45 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joanne Maryz Cabatingan</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
     <div class="container">
-        <div class="navbar"></div>
-        <div class="featured"></div>
-        <div class="previous">
-            <div class="flexbox">
-        <div class="small-square" id="s1">S1</div>
-        <div class="small-square" id="s2">S2</div>
-        <div class="small-square" id="s3">S3</div>
-        
-        <div class="small-square" id="s1">S1</div>
-        <div class="small-square" id="s2">S2</div>
-        <div class="small-square" id="s3">S3</div>
-        
-        <div class="small-square" id="s1">S1</div>
-        <div class="small-square" id="s2">S2</div>
-        <div class="small-square" id="s3">S3</div>
-        
-    </div>
-        </div>
-        <div class="aboutme">
-            <!--left-->
-            <div class="skills"></div>
 
-            <!--right-->
-            <div class="autobiography"></div>
+        <!-- LOGO AND NAVIGATION BAR -->
+        <div id="navbar">
+            <div><a class="navbar_items" href="#featured">MARYZ</a></div>
+            <div><a class="navbar_items" href="#project">PROJECTS</a></div>
+            <div class="navbar_items"><img id="nav_icon" src="images/logo.png" alt="JM"></div>
+            <div><a class="navbar_items" href="#skills">SKILLS</a></div>
+            <div><a class="navbar_items" href="#autobiography">AUTOBIOGRAPHY</a></div>
+
         </div>
-        <div class="footer">
-            <div class="col1"></div>
-            <div class="col2">
-                <ul>
-                    <li>Joanne Maryz Cabatingan</li>
-                    <li>jpcabatingan@up.edu.ph</li>
-                    <li>+63 951 257 0285</li>
-                    <li>Batong Malake, UPLB, Laguna 4030</li>
-                    <li><a href="www.facebook.com/joannemaryz">Connect on Facebook</a></li>
-                </ul>
+        
+        <!-- FEATURED PHOTO -->
+        <div id="featured">
+            <div class="featured_col1"><img id="featured_photo" src="images/featured_photo.png" alt="My Featured Photo"></div>
+            <div class="featured_col2">
+                <h1 id="featured_title">MARYZ</h1>
+                <p class="featured_tagline">Computer Science Sophomore</p>
+                <p class="featured_tagline">Batch 2023</p>
+
+                <img id="featured_flowers" src="images/featured_flowers.png" alt="Flowers">
             </div>
+        </div>
+
+        <!-- PREVIOUS PROJECTS -->
+        <div id="project">
+            <div id="project_title">- - - - works - - - -</div>
+            <div id="project_items">
+            
+                <div class="project_box">
+                    <div class="project_imagerow"><img class="project_images" src="images/projects_cafeteria.png" alt="Cafeteria Management"></div>
+                    <div class="project_title">Cafeteria Management</div>
+                    <div class="project_langs">Python</div>
+                    <div class="project_description">
+                        An application that allows students to scan their RFIDs for meal purchases
+                        and allows the food concessionare to keep a record of sales.
+                    </div>
+                </div>
+                <div class="project_box">
+                    <div class="project_imagerow"><img class="project_images" src="images/projects_palanca.png" alt="Anonymous Letters"></div>
+                    <div class="project_title">Palanca Submission</div>
+                    <div class="project_langs">HTML, CSS</div>
+                    <div class="project_description">
+                        A website that allows anonymous letters to be sent to
+                        our graduating batch's individuals.
+                    </div>
+                </div>
+                <div class="project_box">
+                    <div class="project_imagerow"><img class="project_images" src="images/projects_farm.png" alt="Python Farm Game"></div>
+                    <div class="project_title">Farm Game</div>
+                    <div class="project_langs">Python</div>
+                    <div class="project_description">
+                        A farm simulation game that allows player to tend to
+                        their farm according to different weather conditions.
+                    </div>
+                </div>
+                <div class="project_box">
+                    <div class="project_imagerow"><img class="project_images" src="images/projects_1v1.png" alt="1v1 Fighting Game"></div>
+                    <div class="project_title">2D Fighting Game</div>
+                    <div class="project_langs">Java</div>
+                    <div class="project_description">
+                        A multiplayer 1v1 fighting game application.
+                    </div>
+            </div>
+        </div>
+        
+        
+        </div>
+
+        <!-- SKILLS AND AUTOBIOGRAPHY -->
+        <div id="aboutme">
+
+            <!-- column1 : SKILLS-->
+            <div id="skills">
+
+                <!--logo + title + short description-->
+                <div id="skills_header">skills.</div>
+                
+                <div class="skills_row">
+                    <div class="skills_title">Design & Project Planning</div>
+                    <div class="skills_platforms">Adobe Photoshop, Adobe InDesign, Canva</div>
+                    <div class="skills_description">
+                        I was in charge of the project planning, design, and layout in my previous projects.
+                    </div>
+                </div>
+
+                <div class="skills_row">
+                    <div class="skills_title">Front-End Development</div>
+                    <div class="skills_platforms">HTML, CSS, Javascript</div>
+                    <div class="skills_description">
+                        I have experience in web development for personal blogs, news sites, portfolios.
+                    </div>
+                </div>
+
+                <div class="skills_row">
+                    <div class="skills_title">Python, C, and Java Programming</div>
+                    <div class="skills_platforms">Python, C, Data Structures, Java, JavaFX</div>
+                    <div class="skills_description">
+                        I have sufficient knowledge in Python, C, and Java programming. I also have experience in creating JavaFX-based game applications.
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- column2: AUTOBIOGRAPHY-->
+            <div id="autobiography">
+
+                <!--my picture-->
+                <div class="autobiography_row1">
+                    <img id="autobiography_myphoto" src="images/myphoto.png">
+                </div>
+
+                
+                <div id="autobiography_header">my life</div>
+                <!--short background about my life-->
+                <div class="autobiography_row2">
+                    <p id="autobiography_mylife">
+                        I am <b>Joanne Maryz Cabatingan</b>, a Sophomore of BS Computer Science Batch 2023.
+                        I was born on July 10, 2004 and have lived my life in Rizal, ZDN until high school.
+                        I moved to Dipolog City to pursue education at a science high school.
+                        Now, I currently reside in a UP Los Banos dormitory for my college education.
+                    </p>
+
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_items"> <img id="footer_icon" src="images/logo.png" alt="LOGO"> </div>
+            <div class="footer_items">jpcabatingan@up.edu.ph</div>
+            <div class="footer_items">+63 951 257 0285</div>
+            <div class="footer_items">FB: @joannemaryz</div>
+            <div class="footer_items">Copyright: All photos are mine.</div>
+            <div class="footer_items"><a id="footer_link" href="#navbar">Back to Top</a></div>
         </div>
     </div>
     
